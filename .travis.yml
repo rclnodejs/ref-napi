@@ -1,5 +1,7 @@
 sudo: false
 
+dist: bionic
+
 env:
   - CXX=g++-4.9
   - CXX=clang++
@@ -23,6 +25,7 @@ node_js:
   - "10"
   - "12"
   - "14"
+  - "16"
 
 jobs:
   include:
